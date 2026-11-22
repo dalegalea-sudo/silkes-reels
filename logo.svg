@@ -1,19 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 170" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" role="img" aria-labelledby="title desc">
 <title id="title">Silke's Reels</title>
-<desc id="desc">Silke's Reels casino reviews and comparisons logo with neon arcade framing, blue and gold lettering, sparkles and three sevens.</desc>
+<desc id="desc">Silke's Reels logo: elegant chrome-blue script lettering, gold crown, neon pink and blue rings, a gold-trimmed slot reel with three red sevens, and the tagline Play, Review, Win.</desc>
 <defs>
-  <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b9f5ff"/><stop offset=".42" stop-color="#39bfff"/><stop offset="1" stop-color="#1470e8"/></linearGradient>
-  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff4ad"/><stop offset=".48" stop-color="#ffc43d"/><stop offset="1" stop-color="#ef7625"/></linearGradient>
+ <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".18" stop-color="#9ceaff"/><stop offset=".42" stop-color="#168fe8"/><stop offset=".62" stop-color="#d9f7ff"/><stop offset=".82" stop-color="#1676cf"/><stop offset="1" stop-color="#071e58"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff6b5"/><stop offset=".45" stop-color="#ffc52e"/><stop offset="1" stop-color="#a95708"/></linearGradient>
+ <linearGradient id="reel" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fffef0"/><stop offset=".5" stop-color="#f1e5c6"/><stop offset="1" stop-color="#c8b58e"/></linearGradient>
+ <filter id="neonBlue" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="neonPink" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<path d="M24 18H596L612 34V136L596 152H24L8 136V34Z" fill="#080d20" stroke="#e52cff" stroke-width="4"/>
-<path d="M34 27H586L600 41V128L586 143H34L20 128V41Z" fill="none" stroke="#32c8ff" stroke-width="2"/>
-<g text-anchor="middle" font-family="Impact,'Arial Black',Arial,sans-serif" font-weight="900">
-  <text x="310" y="78" font-size="66" letter-spacing="1" fill="url(#blue)" stroke="#07132b" stroke-width="2" paint-order="stroke">SILKE'S</text>
-  <text x="310" y="132" font-size="68" letter-spacing="2" fill="url(#gold)" stroke="#35132e" stroke-width="2" paint-order="stroke">REELS</text>
+<ellipse cx="410" cy="132" rx="370" ry="104" fill="none" stroke="#ec25ef" stroke-width="5" opacity=".9" filter="url(#neonPink)"/>
+<ellipse cx="410" cy="132" rx="350" ry="91" fill="none" stroke="#27caff" stroke-width="3" opacity=".95" filter="url(#neonBlue)"/>
+<path d="M93 69L112 25L146 59L178 15L193 68L165 82H111Z" fill="url(#gold)" stroke="#fff0a0" stroke-width="4"/>
+<circle cx="112" cy="25" r="6" fill="#fff2a0"/><circle cx="178" cy="15" r="6" fill="#fff2a0"/><circle cx="146" cy="59" r="5" fill="#fff2a0"/>
+<text x="410" y="132" text-anchor="middle" font-family="'Apple Chancery','Brush Script MT','Segoe Script',cursive" font-size="116" font-weight="bold" font-style="italic" fill="url(#chrome)" stroke="#061b50" stroke-width="4" paint-order="stroke" filter="url(#neonBlue)">Silke's</text>
+<text x="410" y="211" text-anchor="middle" font-family="Impact,'Arial Black',sans-serif" font-size="86" font-weight="900" letter-spacing="8" fill="url(#chrome)" stroke="#07183d" stroke-width="5" paint-order="stroke">REELS</text>
+<text x="410" y="251" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="bold" letter-spacing="8" fill="#ffe16b">PLAY  •  REVIEW  •  WIN</text>
+<g transform="translate(790 35)">
+ <rect x="0" y="0" width="174" height="202" rx="23" fill="#21142a" stroke="url(#gold)" stroke-width="12"/>
+ <rect x="13" y="14" width="148" height="155" rx="10" fill="url(#reel)" stroke="#fff0a8" stroke-width="3"/>
+ <path d="M15 60H159M15 120H159" stroke="#b49a6a" stroke-width="3" opacity=".65"/>
+ <g font-family="Georgia,serif" font-size="67" font-weight="bold" fill="#d71928" stroke="#7b0714" stroke-width="1" paint-order="stroke" text-anchor="middle">
+  <text x="39" y="108">7</text><text x="87" y="108">7</text><text x="135" y="108">7</text>
+ </g>
+ <rect x="27" y="179" width="120" height="10" rx="5" fill="url(#gold)"/>
+ <path d="M168 45L195 25" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+ <circle cx="199" cy="22" r="14" fill="#d71928" stroke="#ffe58a" stroke-width="4"/>
+ <path d="M87 -7L87 -22" stroke="#ffd84d" stroke-width="4"/><path d="M76 -22H98L87 -39Z" fill="url(#gold)"/>
 </g>
-<g fill="#ffdf4a" stroke="#ff7a20" stroke-width="2">
-  <path d="M65 42l7-17 7 17 17 7-17 7-7 17-7-17-17-7z"/>
-  <path d="M535 42l7-17 7 17 17 7-17 7-7 17-7-17-17-7z"/>
-</g>
-<text x="310" y="18" text-anchor="middle" fill="#ffdf4a" font-family="Arial,sans-serif" font-size="16" font-weight="bold">777</text>
+<g fill="#ffe56b"><path d="M35 115l7-18 7 18 18 7-18 7-7 18-7-18-18-7z"/><path d="M700 65l5-13 5 13 13 5-13 5-5 13-5-13-13-5z"/></g>
 </svg>
