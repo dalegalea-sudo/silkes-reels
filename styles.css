@@ -32,3 +32,49 @@ footer{border-top:1px solid #304879;padding:30px max(28px,calc((100vw - 1100px)/
 .bonus-footnote{font-size:12px;margin:0;color:#b9c7d9!important}.bonus-review{font-size:12px;font-weight:700;color:var(--cyan)}
 .bonus-unavailable{display:block;padding:11px 12px;border-radius:8px;text-align:center;margin-top:auto;background:#1c2640;color:#b4bfd2;border:1px solid #3e4964;font:700 11px 'DM Mono';letter-spacing:.02em}
 @media(max-width:720px){.bonus-grid{grid-template-columns:1fr}.bonus-card{padding:19px}}
+
+/* SILKE'S REELS — NEON ARCADE V2 (site-wide) */
+:root{--bg:#060714;--panel:#101937;--line:#4269a9;--blue:#50b9ff;--cyan:#82f2ff;--pink:#ff64f3;--gold:#ffe178;--text:#f8fbff;--muted:#cdd9ef}
+body{background:radial-gradient(ellipse at 10% 1%,#792c9233,transparent 34rem),radial-gradient(ellipse at 88% 9%,#177cc944,transparent 35rem),linear-gradient(180deg,#0c102a 0%,#060916 60%,#050713);color:var(--text)}
+body:before{opacity:.17;background-image:linear-gradient(#399ff844 1px,transparent 1px),linear-gradient(90deg,#399ff844 1px,transparent 1px)}
+h1,h2,h3{color:#fff;text-shadow:0 0 9px #62baff44,0 0 25px #f45bff22}
+h1{letter-spacing:-.025em}
+.hero h1,.page h1{background:linear-gradient(100deg,#fff 10%,#b6f8ff 46%,#ffbdf8 88%);-webkit-background-clip:text;background-clip:text;color:transparent;text-shadow:0 0 28px #65d9ff44}
+.hero h1 em{color:#93f6ff;text-shadow:0 0 13px #52d6ffbb,0 0 29px #da54ff77}
+h2{position:relative}
+.page h2:not(.bonus-card h2),.intro-grid h2,.coming h2{border-left:3px solid var(--pink);padding-left:15px}
+.eyebrow,.level{color:#91f4ff;text-shadow:0 0 9px #53d3ff77;letter-spacing:.17em}
+p,.page li,.lead,.intro-grid>p,.feature-grid p,.coming p{color:var(--muted)}
+a{transition:color .18s,text-shadow .18s,transform .18s}
+a:hover,a:focus-visible{color:#fff;text-shadow:0 0 12px #82f2ff77}
+:focus-visible{outline:2px solid #ffe178;outline-offset:4px}
+.site-header{border-bottom:1px solid #7edfff66;background:linear-gradient(95deg,#090d25,#201137 46%,#08152d);box-shadow:0 2px 19px #24a9ff33,0 0 35px #b94eff22}
+.brand-logo{filter:drop-shadow(0 0 12px #39a8ff88) drop-shadow(0 0 23px #f04dff66)}
+nav a{color:#e7f6ff;font-weight:700;border-bottom:2px solid transparent;padding-bottom:4px}
+nav a:hover,nav a:focus-visible{border-color:var(--pink)}
+.button{background:linear-gradient(110deg,#46aaff,#73e6ff);color:#061422;border:1px solid #d5fbff;box-shadow:0 0 13px #39a8ff99,0 0 30px #168cff55}
+.button:hover{box-shadow:0 0 19px #72e9ffbb,0 0 38px #fa5bfc66}
+.text-link,.bonus-review{color:#ffe178;text-shadow:0 0 10px #ffd35a55}
+.notice-panel,.feature-grid article,.coming,.bonus-card,.hero-art,.offers-status{background:radial-gradient(circle at 100% 0%,#ff53eb1a,transparent 50%),linear-gradient(145deg,#152348,#0b1229);border-color:#658fda88;box-shadow:0 10px 25px #0006,inset 0 0 25px #5daaff12,0 0 17px #45b8ff18}
+.notice-panel,.bonus-card,.feature-grid article{position:relative;overflow:hidden}
+.notice-panel:before,.bonus-card:before{content:"";position:absolute;inset:0 0 auto;height:2px;background:linear-gradient(90deg,#50b9ff,#ff64f3,#ffe178);box-shadow:0 0 12px #ff64f388}
+.feature-grid article:before{height:3px;box-shadow:0 0 12px #64e4ff99}
+.offers-spotlight{border-color:#71ccff88;box-shadow:0 0 25px #5cbcff33,inset 0 0 30px #ff64f30c}
+.bonus-status{color:#fff0ae!important}
+.bonus-card h3{color:#fff;text-shadow:0 0 12px #83dcff77}
+.bonus-card dt{color:#9ce8ff}
+.bonus-unavailable{background:#273152;color:#e0e8fa;border-color:#536ba0}
+.bonus-card .bonus-review{display:inline-block;width:fit-content}
+.arcade-strip{background:linear-gradient(90deg,#1b2e63,#54225e,#1b2e63);border-top:1px solid #77d7ff77;border-bottom:1px solid #ff64f377;box-shadow:0 0 19px #aa54ff33;color:#fff}
+footer,.site-legal-footer{background:linear-gradient(180deg,#0a0d24,#050713);border-top:1px solid #6adaff66;box-shadow:0 -5px 24px #50b9ff22}
+.footer-brand{color:#b6fbff;text-shadow:0 0 11px #50b9ff99}
+.site-legal-footer .legal-small{color:#b8c9e2}
+.page li::marker{color:var(--cyan)}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+  .brand-logo{animation:sr-neon-pulse 5s ease-in-out infinite}
+  .feature-grid article:hover,.bonus-card:hover,.notice-panel:hover{transform:translateY(-2px);border-color:#89e8ffbb;box-shadow:0 15px 30px #0007,0 0 23px #50b9ff33}
+  .feature-grid article,.bonus-card,.notice-panel{transition:transform .2s,border-color .2s,box-shadow .2s}
+}
+@keyframes sr-neon-pulse{0%,100%{filter:drop-shadow(0 0 10px #39a8ff88) drop-shadow(0 0 17px #ff64f344)}50%{filter:drop-shadow(0 0 16px #39a8ffbb) drop-shadow(0 0 27px #ff64f377)}}
+@media(max-width:720px){.site-header{padding:17px 12px}.brand-logo{max-width:94vw}.page{padding-top:38px}.page h1{font-size:clamp(34px,9vw,52px)}.notice-panel,.bonus-card{padding:20px}.arcade-strip{gap:12px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important;transition:none!important}}
