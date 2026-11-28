@@ -128,3 +128,40 @@ footer,.site-legal-footer{background:linear-gradient(180deg,#0a0d24,#050713);bor
 .home-offers>.notice{margin:18px 0 0}
 @media(max-width:850px){.home-offers-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.home-offers{padding:18px;margin-top:18px}.home-offers-grid{grid-template-columns:1fr}.home-offers-heading .button{width:100%;text-align:center}}
+
+/* SILKE'S REELS — MAXIMUM NEON V4. Rich lighting without rapid strobe effects. */
+:root{--blue:#68c8ff;--cyan:#a0f6ff;--pink:#ff73eb;--gold:#ffe582;--muted:#d2dff4}
+body{background:radial-gradient(ellipse at 15% 0%,#dc34e22d,transparent 30rem),radial-gradient(ellipse at 88% 5%,#18a4ff33,transparent 34rem),radial-gradient(ellipse at 48% 42%,#4b37a911,transparent 48rem),linear-gradient(180deg,#080c24,#040613 56%,#02040c)}
+body:before{opacity:.2}
+.site-header{background:radial-gradient(ellipse at 50% 10%,#692a8a66,transparent 58%),linear-gradient(90deg,#070e27,#170d31,#07172d)!important;box-shadow:0 0 20px #5bd0ff66,0 0 56px #fc6cff33,inset 0 -2px 18px #6ddcff24}
+.site-header::after{height:5px;box-shadow:0 0 14px #72e9ff,0 0 30px #f55affaa,0 0 48px #52bfff77}
+.site-header .brand-logo{filter:drop-shadow(0 0 15px #78dfffbb) drop-shadow(0 0 29px #fc6cff99) drop-shadow(0 0 52px #74c8ff66)}
+.site-header nav a{color:#f5fcff;text-shadow:0 0 9px #78dfff88}
+h1,h2,h3{color:#fff;text-shadow:0 0 9px #83dfff88,0 0 24px #ff73eb50,0 0 39px #6eaaff33}
+.hero h1 em,.footer-brand{color:#b5fbff;text-shadow:0 0 12px #9cf7ff,0 0 30px #58c8ff99,0 0 50px #f768ee55}
+.page h1,.hero h1{filter:drop-shadow(0 0 12px #7de6ff55)}
+.eyebrow{color:#b5faff;text-shadow:0 0 9px #69daffbb,0 0 23px #fa74ed66}
+.notice-panel,.feature-grid article,.coming,.bonus-card,.home-offer-card,.home-offers,.offers-spotlight,.offers-status,.hero-art{border-color:#80dfff99;box-shadow:0 0 18px #59bfff44,0 0 35px #fa61f333,inset 0 0 27px #72ddff13,0 14px 30px #0007}
+.bonus-card:before,.notice-panel:before,.home-offer-card:before,.feature-grid article:before{height:3px;background:linear-gradient(90deg,#5fcaff,#ff68ee,#ffe481,#78f4ff);box-shadow:0 0 11px #8cefffbb,0 0 23px #fc5cfa88}
+.button{border:1px solid #e9ffff;background:linear-gradient(110deg,#45aaff,#9df8ff);color:#06121c;box-shadow:0 0 15px #54c9ffcc,0 0 34px #72dfff77,0 0 55px #e65aff44}
+.button:hover,.button:focus-visible{box-shadow:0 0 19px #8df4ff,0 0 41px #5acbffbb,0 0 65px #ec5cfd66}
+.arcade-strip{border-color:#ff8cec99;box-shadow:0 0 16px #eb5cff99,0 0 37px #64caff66}
+footer,.site-legal-footer{border-top:2px solid #83e8ff88;box-shadow:0 -8px 28px #5ed5ff55}
+.review-search{padding:24px;margin:22px 0 30px;border:1px solid #8ee7ff;position:relative;border-radius:16px;background:linear-gradient(125deg,#16264d,#150f33 70%,#0b1737);box-shadow:0 0 15px #5cdbffaa,0 0 35px #ef5eff55}
+.review-search:before{content:"";position:absolute;inset:0 0 auto;height:4px;border-radius:16px 16px 0 0;background:linear-gradient(90deg,#60caff,#ff7ae9,#ffe581,#60caff);box-shadow:0 0 12px #69dfffaa}
+.review-search h2{margin:0 0 12px;border:none!important;padding:0!important}
+.review-search label{display:block;color:#e3f7ff;margin-bottom:8px;font-weight:600}
+.review-search-row{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+.review-search input[type="search"]{min-width:180px;flex:1 1 220px;width:100%;border:1px solid #85dfff;border-radius:9px;background:#070f25;color:#fff;padding:13px 15px;font:inherit;outline-offset:4px;box-shadow:inset 0 0 10px #5fcfff33}
+.review-search input::placeholder{color:#aabdd8}
+.review-search input:focus-visible{outline:2px solid #ffe581;box-shadow:0 0 15px #67dfff66}
+.review-search .button{cursor:pointer;font:700 14px 'DM Sans',sans-serif;padding:11px 17px;border-radius:9px}
+.review-clear{background:#1f2a4f;color:#ecf9ff;border:1px solid #7897ce;border-radius:9px;cursor:pointer;font:700 14px 'DM Sans',sans-serif;padding:11px 15px}
+.review-clear:hover,.review-clear:focus-visible{background:#2d3c68;border-color:#9befff}
+.review-search-count,.review-search-empty{margin:14px 0 0;color:#d7e6fa}
+.notice-panel[hidden],.review-search-empty[hidden]{display:none!important}
+@media (prefers-reduced-motion:no-preference){.site-header .brand-logo{animation:sr-maximum-sign 5.4s ease-in-out infinite}.site-header::after{animation:sr-light-track 7s linear infinite}.review-search{animation:sr-search-halo 7s ease-in-out infinite}}
+@keyframes sr-maximum-sign{0%,100%{opacity:1;filter:drop-shadow(0 0 15px #78dfffbb) drop-shadow(0 0 29px #fc6cff99)}45%{opacity:.96;filter:drop-shadow(0 0 21px #9dfbffff) drop-shadow(0 0 42px #ff7ae9cc)}75%{opacity:1;filter:drop-shadow(0 0 13px #6ccaffaa) drop-shadow(0 0 25px #ee65fc77)}}
+@keyframes sr-search-halo{0%,100%{box-shadow:0 0 15px #5cdbff99,0 0 30px #ef5eff44}50%{box-shadow:0 0 25px #5cdbffcc,0 0 48px #ef5eff77}}
+@media(max-width:600px){.review-search{padding:19px}.review-search-row>.button{flex:1 1 54%}.review-clear{flex:1 1 30%}}
+@media(prefers-reduced-motion:reduce){.site-header .brand-logo,.site-header::after,.review-search{animation:none!important}}
