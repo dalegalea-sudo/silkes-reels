@@ -165,3 +165,22 @@ footer,.site-legal-footer{border-top:2px solid #83e8ff88;box-shadow:0 -8px 28px 
 @keyframes sr-search-halo{0%,100%{box-shadow:0 0 15px #5cdbff99,0 0 30px #ef5eff44}50%{box-shadow:0 0 25px #5cdbffcc,0 0 48px #ef5eff77}}
 @media(max-width:600px){.review-search{padding:19px}.review-search-row>.button{flex:1 1 54%}.review-clear{flex:1 1 30%}}
 @media(prefers-reduced-motion:reduce){.site-header .brand-logo,.site-header::after,.review-search{animation:none!important}}
+
+
+/* SILKE'S REELS — TYPOGRAPHY V2. Logo image and its styling intentionally unchanged. */
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+body{font-family:'Outfit','DM Sans',sans-serif;font-size:16px;line-height:1.68;letter-spacing:.005em}
+main h1,main h2,main h3,.bonus-card h3,.home-offer-card h3{font-family:'Barlow Condensed','Manrope',sans-serif;font-weight:800;line-height:1.08;letter-spacing:.025em}
+.hero h1{font-size:clamp(52px,8vw,96px);line-height:.98;letter-spacing:.005em;text-transform:uppercase}
+.page h1{font-size:clamp(44px,6.5vw,72px);text-transform:uppercase;letter-spacing:.025em}
+main h2{letter-spacing:.03em}
+.page .notice-panel h2{font-size:clamp(29px,4.5vw,39px)}
+.bonus-card h3,.home-offer-card h3{font-size:clamp(24px,3vw,30px);letter-spacing:.02em}
+.eyebrow,.arcade-strip,.arcade-label,.bonus-card dt{font-family:'Space Grotesk','DM Mono',monospace;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.site-header nav a{font-family:'Space Grotesk','DM Sans',sans-serif;font-size:13px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
+.button,.review-search .button,.review-clear{font-family:'Space Grotesk','DM Sans',sans-serif;letter-spacing:.025em}
+main p,main li,main dd{font-family:'Outfit','DM Sans',sans-serif}
+main .lead{font-size:clamp(17px,2vw,20px);line-height:1.65}
+.footer-brand{font-family:'Barlow Condensed','Manrope',sans-serif;font-weight:800;font-size:23px;letter-spacing:.09em}
+.footer-brand span,.legal-small,.footer-links a{font-family:'Outfit','DM Sans',sans-serif}
+@media(max-width:600px){.hero h1{font-size:clamp(43px,10.8vw,65px)}.page h1{font-size:clamp(40px,10vw,60px)}.site-header nav a{font-size:12px}}
