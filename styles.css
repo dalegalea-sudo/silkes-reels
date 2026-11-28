@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;600;700&family=Manrope:wght@500;700;800&display=swap');
 :root{--bg:#070914;--panel:#0c1428;--line:#24365b;--blue:#39a8ff;--cyan:#65d9ff;--pink:#f04dff;--gold:#ffd35a;--text:#f3f6fc;--muted:#b7c4d6}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#1a1745 0,transparent 36rem),linear-gradient(180deg,#080b1b,#050711 65%);color:var(--text);font:16px 'DM Sans',sans-serif;line-height:1.65}
@@ -168,7 +169,6 @@ footer,.site-legal-footer{border-top:2px solid #83e8ff88;box-shadow:0 -8px 28px 
 
 
 /* SILKE'S REELS — TYPOGRAPHY V2. Logo image and its styling intentionally unchanged. */
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
 body{font-family:'Outfit','DM Sans',sans-serif;font-size:16px;line-height:1.68;letter-spacing:.005em}
 main h1,main h2,main h3,.bonus-card h3,.home-offer-card h3{font-family:'Barlow Condensed','Manrope',sans-serif;font-weight:800;line-height:1.08;letter-spacing:.025em}
 .hero h1{font-size:clamp(52px,8vw,96px);line-height:.98;letter-spacing:.005em;text-transform:uppercase}
